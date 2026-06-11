@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato - Daniel</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="index.html">Daniel</a>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projeto.html">Projetos</a></li>
+          <li><a href="contato.html" class="ativo">Contato</a></li>
+        </ul>
+        <button id="botao-tema" type="button">Tema escuro</button>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h1>Contato</h1>
+        <p>Quer falar comigo? Preencha o formulário abaixo.</p>
+
+        <form id="form-contato">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" />
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+          <button id="botao-enviar" type="submit">Enviar</button>
+
+          <p id="mensagem-form"></p>
+        </form>
+
+        <section>
+          <h2>Outros contatos</h2>
+          <p>
+            GitHub: https://github.com/DanielBezerraCNC<br />
+            E-mail: danielbezerrag6@gmail.com
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>Feito por Daniel com HTML, CSS e JavaScript &mdash; 2026.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
